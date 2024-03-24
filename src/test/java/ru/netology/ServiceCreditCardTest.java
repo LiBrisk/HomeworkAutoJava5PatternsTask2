@@ -5,9 +5,14 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Selenide.*;
-import static ru.netology.dataGenerator.DataGenerator.*;
 import static ru.netology.dataGenerator.DataGenerator.Registration.getRegisteredUser;
 import static ru.netology.dataGenerator.DataGenerator.Registration.getUser;
+import static ru.netology.dataGenerator.DataGenerator.getRandomLogin;
+import static ru.netology.dataGenerator.DataGenerator.getRandomPassword;
+import static ru.netology.dataGenerator.DataGenerator.RegistrationDto;
+
+import static com.codeborne.selenide.Selenide.open;
+
 
 public class ServiceCreditCardTest {
     @BeforeEach

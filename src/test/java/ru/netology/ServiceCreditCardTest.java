@@ -9,7 +9,6 @@ import static ru.netology.dataGenerator.DataGenerator.Registration.getRegistered
 import static ru.netology.dataGenerator.DataGenerator.Registration.getUser;
 import static ru.netology.dataGenerator.DataGenerator.getRandomLogin;
 import static ru.netology.dataGenerator.DataGenerator.getRandomPassword;
-import static ru.netology.dataGenerator.DataGenerator.RegistrationDto;
 
 import static com.codeborne.selenide.Selenide.open;
 
